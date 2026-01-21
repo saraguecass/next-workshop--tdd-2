@@ -1,7 +1,9 @@
 package com.example.ordersapi.adapters.outbound.persistence;
 
 import com.example.ordersapi.domain.model.Order;
+import org.springframework.stereotype.Component;
 
+@Component
 public class OrderPersistenceMapper {
 
     public OrderEntity toEntity(Order domain) {

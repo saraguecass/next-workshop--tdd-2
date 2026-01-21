@@ -13,9 +13,9 @@ public class OrderRepositoryAdapter implements OrderRepositoryPort {
     private final JpaOrderRepository jpaRepository;
     private final OrderPersistenceMapper mapper;
 
-    public OrderRepositoryAdapter(JpaOrderRepository jpaRepository) {
+    public OrderRepositoryAdapter(JpaOrderRepository jpaRepository, OrderPersistenceMapper mapper) {
         this.jpaRepository = jpaRepository;
-        this.mapper = new OrderPersistenceMapper();
+        this.mapper = mapper;
     }
 
     @Override
