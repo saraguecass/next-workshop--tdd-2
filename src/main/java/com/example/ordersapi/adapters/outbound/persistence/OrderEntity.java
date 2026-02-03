@@ -1,12 +1,19 @@
-package com.example.ordersapi.domain.model;
+package com.example.ordersapi.adapters.outbound.persistence;
 
-public class Order {
+import jakarta.persistence.*;
 
+@Entity
+@Table(name = "orders")
+public class OrderEntity {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
     private String product;
     private int quantity;
 
-    public Order() {
+    public OrderEntity() {
     }
 
     public Long getId() {

@@ -1,21 +1,9 @@
-package com.example.ordersapi.domain.model;
+package com.example.ordersapi.adapters.inbound.rest.dto;
 
-public class Order {
+public class OrderRequestDto {
 
-    private Long id;
     private String product;
     private int quantity;
-
-    public Order() {
-    }
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
 
     public String getProduct() {
         return product;
