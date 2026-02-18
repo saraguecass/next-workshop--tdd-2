@@ -48,7 +48,7 @@ class OrderPersistenceMapperTest {
 
     @Test
     void toDomain_should_return_null_when_entity_is_null() {
-        Order domain = mapper.toDomain(null);
+        Order domain = mapper.toDomain(null); /*todo estamos pasando una entidad nula a un dominio*/
 
         assertThat(domain).isNull();
     }
