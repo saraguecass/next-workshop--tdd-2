@@ -1,4 +1,4 @@
-package com.example.ordersapi.adapters.outbound.persistence;
+/*package com.example.ordersapi.adapters.outbound.persistence;
 
 import com.example.ordersapi.domain.model.Order;
 import com.example.ordersapi.domain.repository.OrderRepositoryPort;
@@ -45,3 +45,4 @@ public class OrderRepositoryAdapter implements OrderRepositoryPort {
         jpaRepository.delete(entity);
     }
 }
+*/

@@ -1,7 +1,7 @@
-package com.example.ordersapi.domain.exception;
+/*package com.example.ordersapi.domain.exception;
 
 public class OrderNotFoundException extends RuntimeException {
     public OrderNotFoundException(Long id) {
         super("Order with id " + id + " not found");
     }
-}
+}*/

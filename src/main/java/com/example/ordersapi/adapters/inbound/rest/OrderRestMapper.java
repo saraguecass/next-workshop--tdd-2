@@ -1,4 +1,4 @@
-package com.example.ordersapi.adapters.inbound.rest;
+/*package com.example.ordersapi.adapters.inbound.rest;
 
 import com.example.ordersapi.adapters.inbound.rest.dto.OrderRequestDto;
 import com.example.ordersapi.adapters.inbound.rest.dto.OrderResponseDto;
@@ -20,4 +20,4 @@ public class OrderRestMapper {
                 order.getQuantity()
         );
     }
-}
+}*/

@@ -1,4 +1,4 @@
-package com.example.ordersapi.adapters.outbound.persistence;
+/*package com.example.ordersapi.adapters.outbound.persistence;
 
 import com.example.ordersapi.domain.model.Order;
 import org.springframework.stereotype.Component;
@@ -29,4 +29,4 @@ public class OrderPersistenceMapper {
         domain.setQuantity(entity.getQuantity());
         return domain;
     }
-}
+}*/

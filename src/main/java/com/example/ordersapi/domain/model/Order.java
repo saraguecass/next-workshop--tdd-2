@@ -1,4 +1,4 @@
-package com.example.ordersapi.domain.model;
+/*package com.example.ordersapi.domain.model;
 
 public class Order {
 
@@ -32,4 +32,4 @@ public class Order {
     public void setQuantity(int quantity) {
         this.quantity = quantity;
     }
-}
+}*/

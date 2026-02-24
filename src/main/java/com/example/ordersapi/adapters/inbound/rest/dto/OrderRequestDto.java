@@ -1,4 +1,4 @@
-package com.example.ordersapi.adapters.inbound.rest.dto;
+/*package com.example.ordersapi.adapters.inbound.rest.dto;
 
 public class OrderRequestDto {
 
@@ -21,3 +21,4 @@ public class OrderRequestDto {
         this.quantity = quantity;
     }
 }
+*/

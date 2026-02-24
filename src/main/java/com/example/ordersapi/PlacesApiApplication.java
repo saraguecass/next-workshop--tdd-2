@@ -1,13 +1,12 @@
-/*package com.example.ordersapi;
+package com.example.ordersapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class OrdersApiApplication {
+public class PlacesApiApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(OrdersApiApplication.class, args);
+        SpringApplication.run(PlacesApiApplication.class, args);
     }
-
-}*/
+}

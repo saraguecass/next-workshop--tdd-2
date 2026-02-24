@@ -1,4 +1,4 @@
-package com.example.ordersapi.adapters.inbound.rest.dto;
+/*package com.example.ordersapi.adapters.inbound.rest.dto;
 
 public class OrderResponseDto {
 
@@ -23,4 +23,4 @@ public class OrderResponseDto {
     public int getQuantity() {
         return quantity;
     }
-}
+}*/

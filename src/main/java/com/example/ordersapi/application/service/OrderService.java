@@ -1,4 +1,4 @@
-package com.example.ordersapi.application.service;
+/*package com.example.ordersapi.application.service;
 
 import com.example.ordersapi.application.port.inbound.OrderUseCase;
 import com.example.ordersapi.domain.exception.OrderNotFoundException;
@@ -39,4 +39,4 @@ public class OrderService implements OrderUseCase {
                 .orElseThrow(() -> new OrderNotFoundException(id));
         repository.delete(order);
     }
-}
+}*/

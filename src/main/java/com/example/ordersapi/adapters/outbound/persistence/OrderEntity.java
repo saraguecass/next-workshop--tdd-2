@@ -1,4 +1,4 @@
-package com.example.ordersapi.adapters.outbound.persistence;
+/*package com.example.ordersapi.adapters.outbound.persistence;
 
 import jakarta.persistence.*;
 
@@ -39,4 +39,4 @@ public class OrderEntity {
     public void setQuantity(int quantity) {
         this.quantity = quantity;
     }
-}
+}*/

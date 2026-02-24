@@ -1,4 +1,4 @@
-package com.example.ordersapi.application.port.inbound;
+/*package com.example.ordersapi.application.port.inbound;
 
 import com.example.ordersapi.domain.model.Order;
 
@@ -13,4 +13,4 @@ public interface OrderUseCase {
     Order getById(Long id);
 
     void delete(Long id);
-}
+}*/
